@@ -1,0 +1,45 @@
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+/* short hand syntax
+h1{
+    border: 3px solid blueviolet;
+} */
+
+#p1{
+    border-style: solid;
+}
+#p2{
+    border-style: dashed;
+}
+#p3{
+    border-style: dotted;
+}
+#p4{
+    border-style: double;
+}
+#p5{
+    border-style: groove;
+}
+#p6{
+    border-style: ridge;
+}
+#p7{
+    border-style: inset;
+}
+#p8{
+    border-style: outset;
+}
+#p9{
+    border-style: none;
+}
+#p10{
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted orange;
+    border-right: 3px dotted green;
+}

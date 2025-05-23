@@ -1,0 +1,27 @@
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+
+.box{
+    border-radius: 5px solid;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+h1{
+    text-shadow: 3px 3px 5px cyan;
+}
+
+#box1{
+    background-color: tomato;
+    float: left;
+    margin-right: 10px;
+}
+
+#box2{
+    background-color: cyan;
+    float: right;
+    margin-right: 10px;
+}
