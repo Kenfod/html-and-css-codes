@@ -1,0 +1,123 @@
+#div1{
+    background-color: yellow;
+}
+
+#span1{
+    background-color: cyan;
+}
+#div2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+#span2{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+}
+
+#div3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#span3{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#div4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#span4{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#div5{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#span5{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#div6{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#span6{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#div7{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#span7{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#div8{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#span8{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+
+h1{
+    /* text-shadow: 3px 3px 5px cyan; */
+    margin: 10px;
+}
+
+/* h3{
+    text-shadow: 3px 3px cyan; 
+    margin: 10px;
+} */
+
+pre{
+    margin: 10px;
+}
+
+/* p{
+    margin: 5px;
+} */

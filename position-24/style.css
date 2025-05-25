@@ -1,0 +1,95 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+
+    /* To move the element 100px from its top & 100px from left positions:
+    top: 100px;
+    left: 100px; */
+}
+
+.container{
+    overflow: scroll;
+    border: 2px solid;
+    background-color: aquamarine;
+    height: 50vh;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: fixed;
+    border: 2px solid;
+    top: 0px;
+    right: 0px;
+
+    /* To move the element to the top left position of the screen: */
+    /* left: 0px; */
+
+    /* To move the element to the bottom right position of the screen: */
+    /* bottom: 0px; */
+
+    /* To move the element to the bottom left position of the screen:
+    /* left: 0px;  */
+    /* bottom: 0px; */ 
+}
+
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    position: relative;
+
+    /* To move box3 from  the top & to the right by 100px : */
+    /* top: 100px;
+        left: 100px;  */
+}
+
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+
+    /* To move box4 to the middle of box3: */
+    /* top: 50px;
+        left: 50px; */
+}
+
+.container2{
+    overflow: scroll;
+    border: 2px solid;
+    background-color: coral;
+    height: 50vh;
+}
+
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
+
+#box6{
+    height: 100px;
+    width: 100px;
+    background-color: khaki;
+    position: static;
+    top: 0px;
+}
+
+.container3{
+    overflow: scroll;
+    border: 2px solid;
+    background-color: mediumorchid;
+    height: 50vh;
+}
+
+h1{
+    margin: 10px;
+} 
+

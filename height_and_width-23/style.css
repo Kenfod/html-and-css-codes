@@ -1,0 +1,39 @@
+/* To apply box-sizing to all elements: */
+
+/* *{
+  box-sizing: border-box;  
+} */
+
+.div1{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 50vh;
+}
+
+.div2{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 75%;
+}
+
+h1{
+    margin: 10px;
+}
+
+pre{
+    margin: 10px;
+}

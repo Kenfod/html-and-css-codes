@@ -1,0 +1,49 @@
+#div1{
+    border: 2px solid black;
+    height: 50px;
+    overflow: visible;
+    /* "visible" is the default value for overflow property */
+}
+
+#div2{
+    border: 2px solid black;
+    height: 50px;
+    overflow: hidden;
+}
+
+#div3{
+    border: 2px solid black;
+    height: 50px;
+    overflow: clip;
+    overflow-clip-margin: 10px;
+}
+
+#div4{
+    border: 2px solid black;
+    height: 50px;
+    overflow: scroll;
+}
+
+#div5{
+    border: 2px solid black;
+    height: 50px;
+    overflow: auto;
+}
+
+h1{
+    text-shadow: 3px 3px 5px cyan;
+    margin: 10px;
+}
+
+h3{
+    text-shadow: 3px 3px cyan;
+    margin: 10px;
+}
+
+pre{
+    margin: 10px;
+}
+
+p{
+    margin: 5px;
+}
