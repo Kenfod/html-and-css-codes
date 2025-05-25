@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Combinators</h1>
+    <pre>
+        Combinators are used to combine other selectors in a way that allows us to select elements based on their location in the DOM relative to other elements (for example, child or sibling).
+
+        There are 4 different combinators in CSS:
+
+        #1. Descendant combinator (space) - matches all elements that are descendants of a specified element.
+
+        #2. Child combinator (>) - selects all elements that are the children of a specified element.
+
+        #3. Next sibling (Adjacent) combinator (+) - is used to select an element that is directly after another specific element.
+
+            Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+        #4. Subsequent-sibling (General) combinator (~) - selects all elements that are next siblings of a specified element.
+    </pre>
+
+    <p><a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">W3School</a></p>
+
+    <p><a href="https://www.w3schools.com/cssref/css_ref_combinators.php" target="_blank">W3School-Combinator Reference</a></p>
+
+    <p><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators" target="_blank">MDN Web Docs</a></p>
+    
+
+    <h3>#1. Descendant combinator :</h3>
+    <div id="container1">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+    
+    <h3>#2. Children combinator :</h3>
+    <div id="container2">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+
+     <h3>#3. General siblings combinator :</h3>
+    <div id="container3">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+
+    <h3>#4. Adjacent siblings combinator :</h3>
+    <div id="container4">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+    <!-- HOMEWORK: CHECK WHY NO.5 HAS GREEN BACKGROUND COLOR -->
+
+</body>
+</html>

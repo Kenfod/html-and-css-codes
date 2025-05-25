@@ -1,0 +1,60 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: aqua;
+}
+
+button:active{
+    font-size: 1.1em;
+    background-color: yellow;
+}
+
+a:link{
+    color: black;
+    /* HOMEWORK:NOT WORKING */
+}
+
+a:hover{
+    font-size: 1.1em;
+    color: yellow;
+    /* HOMEWORK:NOT WORKING */
+}
+
+a:active{
+    font-size: 1.1em;
+    color: blue;
+    /* HOMEWORK:NOT WORKING */
+}
+
+a:visited{
+    font-size: 1.1em;
+    color: green;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+li:not(:hover){
+    background-color: grey;
+}
+
+#list li:nth-child(odd){
+    background-color: aqua;
+
+    /* Other nth-child values:
+    nth-child(5)
+    nth-child(even)
+    nth-child(3n)
+    nth-child(3n+1)
+    nth-child(3n+2) */
+}
+
+#greeting p{
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
