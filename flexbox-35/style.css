@@ -1,0 +1,273 @@
+body{
+    background-color: navajowhite;
+}
+.hmain{
+   text-align: center; 
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: aquamarine;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(a.active){
+    background-color: gray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container5{
+    display: flex;
+    justify-content: flex-start;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container6{
+    display: flex;
+    justify-content: flex-end;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container7{
+    display: flex;
+    justify-content: center;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container8{
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container9{
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container10{
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container11{
+    display: flex;
+    align-items: flex-start;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container12{
+    display: flex;
+    align-items: flex-end;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container13{
+    display: flex;
+    align-items: center;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container14{
+    display: flex;
+    align-items: baseline;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container15{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container16{
+    display: flex;
+    flex-wrap: no-wrap;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container17{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container18{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container19{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container20{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container21{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container22{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container23{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container24{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container25{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container26{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container27{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.container28{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 100%, 70%);
+}
+
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+
+#box4{
+    background-color: hsl(201, 100%, 70%);
+}
+
+#box5{
+    background-color: hsl(0, 100%, 70%);
+    align-self: center;
+}
+
+#box6{
+    background-color: hsl(0, 100%, 70%);
+    align-self: end;
+}
+
+#box7{
+    background-color: hsl(52, 100%, 70%);
+    order: 1
+}
+
+#box8{
+    background-color: hsl(52, 100%, 70%);
+    order: -1
+}
