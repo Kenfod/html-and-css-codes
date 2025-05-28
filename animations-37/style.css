@@ -1,0 +1,746 @@
+body{
+    background-color: navajowhite;
+}
+.hmain{
+   text-align: center; 
+}
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: aquamarine;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(a.active){
+    background-color: gray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container1{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container2{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container3{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container4{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container5{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container6{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container7{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container8{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container9{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container10{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container11{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container12{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container13{
+   border: 2px solid black;
+    height: 50vh;
+}
+
+.container14{
+   border: 2px solid black;
+    height: 50vh;
+}
+
+.container15{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container16{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container17{
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container18{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container19{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container20{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container21{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container22{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container23{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container24{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container25{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container26{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container27{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container28{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container29{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container30{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container31{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container32{
+    background-color: black;
+    border: 2px solid black;
+    height: 50vh;
+}
+
+.container33{
+    background-color: black;
+    border: 2px solid black;
+    height: 90vh;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideRight;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes slideRight{
+    To{transform: translateX(300%)}
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideUp;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes slideUp{
+    From{transform: translateY(300%)}
+}
+
+#box4{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideDown;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes slideDown{
+    To{transform: translateY(300%)}
+}
+
+#box5{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: rotatex;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes rotatex{
+    100%{transform: rotateX(360deg)}
+}
+
+#box6{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: rotatey;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes rotatey{
+    100%{transform: rotateY(360deg)}
+}
+
+#box7{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: rotatez;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes rotatez{
+    100%{transform: rotateZ(360deg)}
+}
+
+#box8{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: rotatez2;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes rotatez2{
+    50%{transform: rotateZ(360deg)}
+}
+
+#box9{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: rotatez3;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes rotatez3{
+    25%{transform: rotateZ(360deg)}
+}
+
+#box10{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: grow1;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes grow1{
+    100%{transform: scale(2, 2)}
+}
+
+#box11{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: grow2;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes grow2{
+    50%{transform: scale(2, 2)}
+}
+
+#box12{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: shrink1;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes shrink1{
+    100%{transform: scale(0.5, 0.5)}
+}
+
+#box13{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: shrink2;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes shrink2{
+    50%{transform: scale(0.5, 0.5)}
+}
+
+#box14{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: fade1;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes fade1{
+    50%{opacity: 0}
+}
+
+#box15{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: fade2;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes fade2{
+    100%{opacity: 0}
+}
+
+#box16{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    opacity: 0;
+}
+
+@keyframes fadeIn{
+    100%{opacity: 1}
+}
+
+#box17{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes colorChange{
+    0%{background-color: hsl(0, 100%, 70%)}
+    20%{background-color: hsl(35, 100%, 70%)}
+    40%{background-color: hsl(65, 100%, 70%)}
+    60%{background-color: hsl(105, 100%, 70%)}
+    80%{background-color: hsl(205, 100%, 70%)}
+    100%{background-color: hsl(270, 100%, 70%)}
+}
+
+#box18{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px hsl(60, 95%, 45%)}
+}
+
+#box19{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);    
+}
+
+#box19:hover{
+    animation-name: glow;
+    animation-duration: 5s;
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px hsl(60, 95%, 45%)}
+}
+
+#box20{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);    
+}
+
+#box20:active{
+    animation-name: glow;
+    animation-duration: 5s;
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px hsl(60, 95%, 45%)}
+}
+
+#box21{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+
+#box22{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box23{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-direction: normal;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box24{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-direction: reverse;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box25{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-direction: alternate;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box26{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box27{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box28{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box29{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box30{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box31{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: steps(10);
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+#box32{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    background-color: hsl(0, 100%, 70%);
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.63,-0.8, 0.2, 1.81);
+}
+
+@keyframes slideLeft{
+    From{transform: translateX(300%)}
+}
+
+img{
+    width: 300px;
+    height: auto;
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-iteration-count: 15;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.63,-0.8, 0.2, 1.81);  
+}
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    border: 2px solid black;
+
+    transform: translateX(100px) rotateZ(45deg) scale(0.75);
+}  */
+
+
+/* img{
+   transform: translateX(100px) rotateZ(45deg) scale(0.75); 
+} */
+
+/* background-color: hsl(0, 100%, 70%); */
+/* background-color: hsl(52, 100%, 70%); */
+/* background-color: hsl(100, 100%, 70%); */
+/* background-color: hsl(201, 100%, 70%); */
+    
